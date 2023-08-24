@@ -1,0 +1,137 @@
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	background-color: #976D51;
+}
+
+    .menu__item {
+        align-items: center;
+        display: flex;
+        flex: 1 1 200px;
+        justify-content: center;
+        margin: 5px;
+        padding: 0;
+    }
+
+        .menu__link {
+            color: #f8eeee;
+            display: block;
+            padding: 20px;
+            text-decoration: none;
+        }
+/* Flex */
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-item-1 {
+	flex: 1;
+}
+
+/* Flex Item */
+.item {
+	margin: 5px;
+	text-align: center;
+	font-size: 1.5em;
+    width: 99%;
+    margin-left: 2%;
+    margin-top: -2%;
+
+}
+.imagem{
+	width: 34%;
+	margin-top: 9%;
+	margin-left: -59%;
+}
+.imagem2{
+	width: 41%;
+    margin-top: -66%;
+    margin-left: 47%;
+}
+.TEXT{
+	font-size: xx-large;
+	margin-left: -3%;
+	background-color: #976D51;
+	color: aliceblue;
+}
+.itez {
+	margin: 5px;
+	background: #D0BEAC;
+	text-align: center;
+	font-size: 1.5em;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.containerdesk {
+	max-width: 100%;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	}
+
+footer {
+	background-color: #976D51;
+	padding: 20px;
+  }
+  
+  .footer-content {
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .footer-item {
+	flex: 1;
+	margin-right: 8px;
+	color: aliceblue;
+	text-align: center;
+
+  }
+.item1 {
+	margin: 5px;
+	background:#D0BEAC;
+	text-align: center;
+	font-size: 1.5em;
+	border: 1px solid black;
+}
+
+.container {
+	max-width: 100%;
+	margin: 0 auto;
+	/* border: 1px solid #ccc; */
+}
+
+.logo{
+    width: 70%;
+	margin-left: -3%;
+	margin-top: 2%;
+}
+h1 {
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+body {
+	font-family: monospace;
+	color: #333;
+}
+*{
+	box-sizing:border-box ;
+}
+.caro{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	margin: 0;
+	min-height: 100vh;
+}
+.carrosel{
+	box-shadow: 2px;
+}
